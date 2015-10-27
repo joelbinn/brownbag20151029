@@ -1,0 +1,31 @@
+{
+  "name": "brownbag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-dist": "^0.1.0",
+    "jspm": "^0.16.13",
+    "live-server": "^0.8.2"
+  },
+  "jspm": {
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.4.7",
+      "bootstrap": "github:twbs/bootstrap@^3.3.5",
+      "css": "github:systemjs/plugin-css@^0.1.19",
+      "less": "github:aaike/jspm-less-plugin@^0.0.5",
+      "text": "github:systemjs/plugin-text@^0.0.3"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "clean-css": "npm:clean-css@^3.4.6",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
