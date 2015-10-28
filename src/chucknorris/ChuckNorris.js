@@ -1,3 +1,4 @@
+import './chucknorris.sass!';
 import htmlTemplate from './chuckNorrisView.html!text'
 
 class Ctrl {
@@ -14,8 +15,7 @@ class Ctrl {
 Ctrl.$inject = ['$http'];
 
 class ChuckNorrisDirective {
-  constructor($http) {
-    this.http = $http;
+  constructor() {
     this.restrict = 'E';
     this.scope = {};
     this.template = htmlTemplate;
@@ -29,8 +29,8 @@ class ChuckNorris {
     return 'chuckNorris';
   }
 
-  static factory($http) {
-    return new ChuckNorrisDirective($http);
+  static factory() {
+    return new ChuckNorrisDirective();
   }
 }
 ChuckNorris.factory.$inject = ['$http'];

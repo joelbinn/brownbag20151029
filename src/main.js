@@ -1,6 +1,6 @@
 import 'bootstrap';
 import 'bootstrap/css/bootstrap.css!';
-import './brownbag.css!';
+import './brownbag.sass!';
 import angular from 'angular';
 import {chucknorris} from './chucknorris/module';
 
