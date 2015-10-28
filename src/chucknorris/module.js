@@ -1,5 +1,4 @@
 import angular from 'angular';
-import './style.sass!';
 import {ChuckNorris} from './ChuckNorris';
 
 const chucknorris = angular.module('chucknorris',[])
