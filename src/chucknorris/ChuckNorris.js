@@ -1,13 +1,9 @@
-import chuckimage from './chucknorris.jpg!image';
 import './chucknorris.sass!';
 import htmlTemplate from './chuckNorrisView.html!text'
-
-console.log('chuckinage',chuckimage);
 
 class Ctrl {
   constructor($http) {
     this.$http = $http;
-    this.chuckimage = chuckimage.src;
     this.kickit();
   }
 
