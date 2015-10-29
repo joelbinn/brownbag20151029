@@ -5,7 +5,13 @@ Install and start
 -----------------
 
     $ npm install
-    $ jspm install
     $ live-server
 
 Open localhost:8080 in your browser.
+
+Bundle
+------
+
+    $ npm run dist
+
+The distribution created in 'dist/'.    

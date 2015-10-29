@@ -1,6 +1,10 @@
 {
   "name": "brownbag20151029",
   "version": "1.0.0",
+  "scripts": {
+    "postinstall":"jspm install",
+    "dist": "rm -rf dist; mkdir dist; jspm bundle-sfx src/main dist/app.min.js --minify;./node_modules/.bin/html-dist index.html --remove-all --minify --insert app.min.js -o dist/index.html"
+  },
   "devDependencies": {
     "html-dist": "^0.1.0",
     "jspm": "^0.16.13",
