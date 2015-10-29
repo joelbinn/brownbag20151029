@@ -21,6 +21,7 @@ System.config({
     "clean-css": "npm:clean-css@3.4.6",
     "core-js": "npm:core-js@1.2.3",
     "css": "github:systemjs/plugin-css@0.1.19",
+    "image": "github:systemjs/plugin-image@0.1.0",
     "sass": "github:screendriver/plugin-sass@0.0.7",
     "text": "github:systemjs/plugin-text@0.0.3",
     "github:jspm/nodelibs-assert@0.1.0": {

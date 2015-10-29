@@ -2,7 +2,7 @@
   "name": "brownbag20151029",
   "version": "1.0.0",
   "scripts": {
-    "postinstall":"jspm install",
+    "postinstall": "jspm install",
     "dist": "rm -rf dist; mkdir dist; jspm bundle-sfx src/main dist/app.min.js --minify;./node_modules/.bin/html-dist index.html --remove-all --minify --insert app.min.js -o dist/index.html"
   },
   "devDependencies": {
@@ -15,6 +15,7 @@
       "angular": "github:angular/bower-angular@^1.4.7",
       "bootstrap": "github:twbs/bootstrap@^3.3.5",
       "css": "github:systemjs/plugin-css@^0.1.19",
+      "image": "github:systemjs/plugin-image@^0.1.0",
       "sass": "github:screendriver/plugin-sass@^0.0.7",
       "text": "github:systemjs/plugin-text@^0.0.3"
     },

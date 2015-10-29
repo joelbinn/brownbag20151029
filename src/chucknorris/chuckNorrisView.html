@@ -1,5 +1,10 @@
 <div class="jumbotron chuck">
-  <p><em>{{viewModel.joke}}</em></p>
+  <div>
+    <img class="chuck-img" src="{{viewModel.chuckimage}}" height="80" width="60"></img>
+    <p>
+      <em>{{viewModel.joke}}</em>
+    </p>
+  </div>
   <br>
   <button class="btn btn-primary pull-right" ng-click="viewModel.kickit()">Give me another roundhouse kick!</button>
 </div>
